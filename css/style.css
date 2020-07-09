@@ -1,0 +1,115 @@
+body {
+  position: relative;
+}
+
+#headerPanel{
+  height: 30em;
+}
+
+#footer {
+  color: #FFF;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+  background-color: #004a75;
+
+  padding: 1em;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#highlights {
+  color: #e5e5e5;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+  background-color: #004a75;
+
+  padding: 1em;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#npanel .np-inner {
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	width: 150%;
+	position:fixed;
+	z-index:999;   
+}
+
+/*Notifikasi*/
+.form .input-group input[type="email"] {
+  width: 22.5em;
+  text-align: center;
+  white-space: nowrap;
+  margin: 5px 0;
+  text-decoration: none;
+  padding: 7px 19px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.close {
+  position: absolute;
+  top:3px;
+  right:3px;
+  padding:7px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 1;
+  color:#fff;
+}
+@media (min-width: 720px){
+  .nlpanel {
+    width:720px;
+  }
+}
+.nlpanel {
+  position: absolute;
+  padding:30px 50px;
+  background-color:  #007bc1;
+  color:#333;
+  border-radius: 3px;
+  opacity: 0.85;
+  color: #fff;
+}
+.button{
+  opacity: 1;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1.5;
+  width: 10em;
+  text-align: center;
+  border-radius: 3px;
+  white-space: nowrap;
+  margin: 5px 0;
+  text-decoration: none;
+  padding: 5px 15px;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: #ff8000;
+  border-color: #22af73;
+}
+.newsletterPanel {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:0;
+  -webkit-animation:autopopup 2s;
+  -moz-animation:autopopup 2s;
+  animation:autopopup 2s;
+  max-width: :360px;
+  /*position:fixed;*/
+}
+#popup:target {
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  transition:all 1s;
+  opacity: 0;
+  visibility: hidden;
+}

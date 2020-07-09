@@ -1,0 +1,62 @@
+body{
+  background-color: #004a75;
+}
+.newsletterPanel {
+  font-size: 4px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:0;
+}
+#popup:target {
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  transition:all 1s;
+  opacity: 0;
+  visibility: hidden;
+}
+.button{
+  opacity: 1;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1.5;
+  width: 10em;
+  text-align: center;
+  border-radius: 3px;
+  white-space: nowrap;
+  margin: 5px 0;
+  text-decoration: none;
+  padding: 5px 15px;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: #ff8000;
+  border-color: #22af73;
+}
+@media (min-width: 720px){
+  .nlpanel {
+    width:720px;
+  }
+}
+.nlpanel {
+  position: absolute;
+  padding:30px 50px;
+  background-color:  #007bc1;
+  color:#333;
+  border-radius: 3px;
+  opacity: 0.85;
+  color: #fff;
+}
+.close {
+  position: absolute;
+  top:3px;
+  right:3px;
+  padding:7px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 1;
+  color:#fff;
+  font-size:4px;
+}
